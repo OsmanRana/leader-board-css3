@@ -7,7 +7,11 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
 }
-
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 
@@ -126,6 +130,17 @@ hr {
 small {
     color: #ED6B4F;
 }
-.course-stats .fiiled {
+.course-stats .filled {
     color: #FFC014;
+}
+.course-stats .empty {
+    color: rgba(128, 128, 128, 0.5);
+}
+.course-time {
+    border: 1px solid #FF4A60;
+    border-radius: 20px;
+    padding: 0px 5px;
+}
+.fa-clock {
+    color: #FF4A60;
 }
