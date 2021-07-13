@@ -188,6 +188,7 @@ small {
     body {
         width: 600px;
         height: auto;
+        margin: 0;
     }
       
     nav { 
