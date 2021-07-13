@@ -182,3 +182,53 @@ small {
 .fa-clock {
     color: #FF4A60;
 }
+
+/* Media Query */
+@media only screen and (max-width:600px) {
+    body {
+        width: 600px;
+        height: auto;
+    }
+      
+    nav { 
+        width: 90%;
+        height: 94px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);  
+    }
+    .top-container {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .player-container .top-player {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .blog-container, .top-blogs {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .bottom-container, .latest-courses{
+        width: 570px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+       
+    }
+    .course {
+        margin-top: 25px;
+        margin-right: 25px;
+    }
+    hr {
+        width: 600px;
+    }
+
+}
