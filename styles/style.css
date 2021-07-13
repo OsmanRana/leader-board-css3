@@ -211,7 +211,7 @@ small {
         
     }
     .blog-container, .top-blogs {
-        width: 100%;
+        width: 94%;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -223,8 +223,10 @@ small {
         width: 570px;
         height: auto;
         display: flex;
-       
+        flex-direction: row;
+        flex-wrap: wrap;  
     }
+    
     .course {
         margin-top: 25px;
         margin-right: 25px;
